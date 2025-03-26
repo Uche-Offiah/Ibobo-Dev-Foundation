@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import ProgramSection from "@/components/ProgramSection";
+import ProgramSection from "@/components/EducationSection";
 
 export default function ProgramsPage({ images }: { images: string[] }) {
   return <ProgramSection images={images} />;

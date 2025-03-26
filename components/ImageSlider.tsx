@@ -7,9 +7,10 @@ import path from "path";
 
 interface ImageSliderProps {
   images: string[];
+  folderPath: string;
 }
 
-export default function ImageSlider({ images }: ImageSliderProps) {
+export default function ImageSlider({ images, folderPath }: ImageSliderProps) {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -35,14 +36,14 @@ export default function ImageSlider({ images }: ImageSliderProps) {
     >
       {images.length > 0 && (
         <Image
-          src={"/Images/Education_Images/"+ images[currentIndex]} // ✅ Uses correctly formatted image paths
+          src={`${folderPath}/${images[currentIndex]}`} // ✅ Uses correctly formatted image paths
           alt={`Slide ${currentIndex + 1}`}
-          //fill
+          fill
           //className="w-full h-full object-cover transition-all duration-500"
-          width={1200} // Adjust width based on layout
-          height={800} // Maintain aspect ratio
+          // width={1200} // Adjust width based on layout
+          // height={800} // Maintain aspect ratio
           quality={100} // Ensures no compression artifacts
-          className="w-full h-full object-cover transition-all duration-500"
+          className="w-full h-full object-cover transition-all duration-500 "
         />
       )}
     </div>
