@@ -1,8 +1,8 @@
 export default function WalkForLifeText() {
     return (
       <div className="col-span-3">
-        <h3 className="text-2xl font-bold mt-2">WALK FOR LIFE</h3>
-        <p className="mt-2 text-gray-400">
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-2">WALK FOR LIFE</h3>
+        <p className="mt-2 text-gray-400 text-sm sm:text-base md:text-lg">
           The Ibobo Walk for Life is an initiative aimed at promoting physical wellness and fostering community engagement. 
           Each year, over 700 participants—including students, professionals, and the elderly—come together for a morning of fitness. 
           The event begins with a light warm-up at the community field, followed by a 10-kilometer walk around the town, culminating back at the starting point.  

@@ -1,8 +1,8 @@
 export default function EducationText() {
     return (
       <div className="col-span-3">
-        <h3 className="text-2xl font-bold mt-2">AWARD NIGHT</h3>
-        <p className="mt-2 text-gray-400">
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-2">AWARD NIGHT</h3>
+        <p className="mt-2 text-gray-400 text-sm sm:text-base md:text-lg">
         The Award Night marks the grand culmination of the foundation’s yearly activities, celebrating excellence, dedication, and impact across various fields. 
         If the Abor people are known for anything beyond their industrious nature, it is their strong sense of community and love for celebrating achievements—a sentiment
         beautifully captured in the evergreen saying, "Tabulu sokum," which loosely translates to "Take a bite and pass it on."

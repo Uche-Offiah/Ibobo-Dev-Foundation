@@ -1,8 +1,8 @@
 export default function EducationText() {
     return (
       <div className="col-span-3">
-        <h3 className="text-2xl font-bold mt-4">EDUCATION INTERVENTION</h3>
-        <p className="mt-2 text-gray-400">
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-2">EDUCATION INTERVENTION</h3>
+        <p className="mt-2 text-gray-400 text-sm sm:text-base md:text-lg">
           Education is a powerful catalyst for community transformation, and the Ibobo Development Foundation fully embraces this belief. 
           This shared understanding gave rise to the Ibobo Education Intervention, a core pillar dedicated to inspiring and rewarding excellence through education.
           <br />
