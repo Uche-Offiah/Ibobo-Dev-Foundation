@@ -46,7 +46,7 @@ export default function MedicalSection({ images }: MedicalSectionProps) {
     // </section>
 
     <section className="w-full p-4 md:p-10">
-    <div className="flex flex-col md:flex-row items-center bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+    <div className="flex flex-col md:flex-row items-center bg-black-500 rounded-lg shadow-lg overflow-hidden">
       
       {/* Image Section - Takes full width on mobile, 2/5 on desktop */}
       <div className="w-full md:w-2/5 h-auto md:h-[500px] overflow-hidden">

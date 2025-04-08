@@ -64,6 +64,7 @@ import MedicalSection from "../components/MedicalSection";
 import AwardSection from "../components/AwardSection"; 
 import WalkForLifeSection from "../components/WalkForLifeSection";
 import EntrepreneurshipSection from "../components/EntrepreneurshipSection";
+import ContactSection from "../components/ContactSection";
 import { getLocalImages } from "../lib/getLocalImages"; 
 
 export default function HomeServer() {
@@ -94,6 +95,8 @@ export default function HomeServer() {
       <EntrepreneurshipSection images={entrepreneurshipImages} />
       <AwardSection images={awardImages} />
       <WalkForLifeSection images={walkForLifeImages} />
+      <ContactSection/>
+
 
       {/* Footer */}
       <footer className="p-6 text-center bg-black">

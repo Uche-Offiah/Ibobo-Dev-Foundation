@@ -1,29 +1,20 @@
 export default function EducationText() {
     return (
       <div className="col-span-3">
-        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-2">EDUCATION INTERVENTION</h3>
-        <p className="mt-2 text-gray-400 text-sm sm:text-base md:text-lg">
-          Education is a powerful catalyst for community transformation, and the Ibobo Development Foundation fully embraces this belief. 
-          This shared understanding gave rise to the Ibobo Education Intervention, a core pillar dedicated to inspiring and rewarding excellence through education.
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-2 font-playfair">EDUCATION INTERVENTION</h3>
+        <p className="mt-2 text-white-400 text-sm sm:text-base md:text-lg font-semibold font-playfair">
+          <br />
+          Education is the heartbeat of community transformation, and the Ibobo Development Foundation champions this through its flagship Education Intervention program.
+          This initiative was born out of a shared belief that nurturing the minds of young people is the surest path to sustainable growth and excellence.
           <br />
           <br />
-          Abor, as a community, has long recognized that while it may not possess vast mineral resources, its greatest asset lies in its people.
-          Over the years, Abor natives have excelled across various fields, holding esteemed positions as chief medical directors, doctors, teachers, 
-          professors, judges, Senior Advocates of Nigeria (SANs), CEOs, and innovators, among other esteemed positions. 
-          This legacy of academic and professional excellence has been the foundation of Abor’s identity—until a gradual decline in educational achievement became evident.
-          Recognizing this, the Ibobo Development Foundation took decisive action to reverse the trend and restore Abor’s legacy of excellence.
+          While Abor may lack natural resources, it boasts a wealth of human potential. Historically, its sons and daughters have excelled in medicine, law, education, business, and technology. 
+          But as academic achievement began to decline, the Foundation stepped in to reignite a culture of excellence through scholarships and performance-based 
+          awards—made possible by partnerships with sponsors like PGMA Memorial Foundation, Heritage Global Foundation, and others.
           <br />
           <br />
-          Through strategic partnerships with generous sponsors such as PGMA Memorial Foundation, Heritage Global Foundation, 
-          and other charitable individuals, the Ibobo Education Intervention provides scholarships to high-achieving students entering tertiary institutions. 
-          Additionally, annual cash prizes are awarded to the best-performing students in each subject across various secondary school examinations in both the junior 
-          and senior categories, with the goal of inspiring and motivating academic excellence.
-          <br />
-          <br />
-          Education is about building a brighter future and inspiring the next generation to achieve even greater heights. 
-          Since its inception, Ibobo scholarship recipients have achieved an outstanding 100% university graduation rate, 
-          with many returning to contribute to the development of Abor. The initiative also extends beyond financial aid, 
-          incorporating mentorship programs that connect students with professionals who guide them toward career success.
+          Since inception, the program has achieved a 100% university graduation rate among scholarship recipients, many of whom now contribute meaningfully to Abor’s development. 
+          Beyond funding, the initiative also connects students with mentors who guide them in making impactful career choices—ensuring not just academic success, but lifelong growth.
           {/* <br />
           <br />
           By fostering a culture of academic achievement, mentorship, and opportunity, 
