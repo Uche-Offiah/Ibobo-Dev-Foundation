@@ -35,7 +35,7 @@ export default function MedicalText() {
   return (
     <div className="col-span-3">
       <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-2">MEDICAL MISSION</h3>
-      <p className="mt-2 text-white-400 text-sm sm:text-base md:text-lg">
+      <p className="mt-2 text-gray-400 text-sm sm:text-base md:text-lg font-semibold">
         Access to quality healthcare remains a significant challenge in many rural communities; Ibobo Medical Intervention, 
         one of the three core pillars of the Ibobo Development Foundation, is dedicated to addressing this issue in Abor through its Medical Intervention Program.
         <br />

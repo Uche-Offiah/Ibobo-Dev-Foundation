@@ -1,8 +1,8 @@
 export default function EducationText() {
     return (
       <div className="col-span-3">
-        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-2 font-playfair">EDUCATION INTERVENTION</h3>
-        <p className="mt-2 text-white-400 text-sm sm:text-base md:text-lg font-semibold font-playfair">
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-2">EDUCATION INTERVENTION</h3>
+        <p className="mt-2 text-gray-400 text-sm sm:text-base md:text-lg font-semibold">
           <br />
           Education is the heartbeat of community transformation, and the Ibobo Development Foundation champions this through its flagship Education Intervention program.
           This initiative was born out of a shared belief that nurturing the minds of young people is the surest path to sustainable growth and excellence.
@@ -15,10 +15,10 @@ export default function EducationText() {
           <br />
           Since inception, the program has achieved a 100% university graduation rate among scholarship recipients, many of whom now contribute meaningfully to Abor’s development. 
           Beyond funding, the initiative also connects students with mentors who guide them in making impactful career choices—ensuring not just academic success, but lifelong growth.
-          {/* <br />
+          <br />
           <br />
           By fostering a culture of academic achievement, mentorship, and opportunity, 
-          the Ibobo Education Intervention is not just supporting students—it is shaping the future of Abor, one scholar at a time. */}
+          the Ibobo Education Intervention is not just supporting students—it is shaping the future of Abor, one scholar at a time.
         </p>
       </div>
     );
