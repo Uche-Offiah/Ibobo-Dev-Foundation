@@ -3,7 +3,6 @@ export default function EducationText() {
       <div className="col-span-3">
         <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mt-2">EDUCATION INTERVENTION</h3>
         <p className="mt-2 text-gray-400 text-sm sm:text-base md:text-lg font-semibold">
-          <br />
           Education is the heartbeat of community transformation, and the Ibobo Development Foundation champions this through its flagship Education Intervention program.
           This initiative was born out of a shared belief that nurturing the minds of young people is the surest path to sustainable growth and excellence.
           <br />
